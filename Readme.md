@@ -11,6 +11,7 @@ A simple C application/service that logs time, battery level & health every 15 m
     * cmake
     * make
     * git
+    * gcc
 
 2. First clone the repository
 
@@ -37,4 +38,5 @@ make
 make install
 ``
 
-NOTE: this will install locally for the user. No idea if this works with sudo. 
+**NOTE**: When installing/making/cmaking do not use _sudo_ as the BatteryLogger is supposed to be installed for the user.
+System-wide installation will not work.
