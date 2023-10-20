@@ -71,7 +71,7 @@ int main() {
 
     if (strcmp(bInfo.status, "Discharging") == 0) {
         char line[255];
-        sprintf(line, "%i-%i-%i %i:%i, %i, %f\n", tm.tm_year + 1900, tm.tm_mon, tm.tm_mday, tm.tm_hour, tm.tm_min, bInfo.level, bInfo.health);
+        sprintf(line, "%02d-%02d-%02d %02d:%02d, %i\%, %f\%\n", tm.tm_year + 1900, tm.tm_mon, tm.tm_mday, tm.tm_hour, tm.tm_min, bInfo.level, bInfo.health);
         fputs(line, batteryLogFilePtr);
         printf("%s", line);
     }
