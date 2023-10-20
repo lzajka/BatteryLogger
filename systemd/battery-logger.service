@@ -1,0 +1,9 @@
+[Unit]
+Description=Battery Logger
+
+[Service]
+Type=simple
+ExecStart=/home/lukasz/.local/bin/BatteryLogger
+
+[Install]
+RequiredBy=battery-logger.timer
