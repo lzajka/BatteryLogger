@@ -21,22 +21,22 @@ git clone https://github.com/lzajka/BatteryLogger
 
 3. create and cd into the build directory
    
-`` 
+````
 mkdir build && cd build
-``
+````
 
 4. now build it
 
-``
+````
 cmake ..
 make
-``
+````
 
 5. Install
 
-``
+````
 make install
-``
+````
 
 **NOTE**: When installing/making/cmaking do not use _sudo_ as the BatteryLogger is supposed to be installed for the user.
 System-wide installation will not work.
