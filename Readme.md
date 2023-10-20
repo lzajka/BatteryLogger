@@ -4,13 +4,21 @@ A simple C application/service that logs time, battery level & health every 15 m
 
 ## How to install
 
-1. First clone the repository
+1. install dependencies
+
+    the installation process depends on your distro.
+    You'll need to install those:
+    * cmake
+    * make
+    * git
+
+2. First clone the repository
 
 ``
-git clone git@github.com:lzajka/BatteryLogger.git
+git clone https://github.com/lzajka/BatteryLogger
 ``
 
-2. create and cd into the build directory
+3. create and cd into the build directory
    
 `` 
 mkdir build && cd build
